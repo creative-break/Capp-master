@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BLL">
+      <UniqueIdentifier>{2308025d-a9a3-4563-9f32-64d2d28e8749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DAL">
+      <UniqueIdentifier>{67ac78d4-88f8-4b25-b128-4477bce79c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BLL">
+      <UniqueIdentifier>{10cef39f-0b3b-4839-be9d-4e2bd6b89803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DAL">
+      <UniqueIdentifier>{220dd503-92db-45ba-a4d4-21c99a9a170e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{3cd22007-d2cc-47f0-b437-81741cd73859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{5b829c78-1c3e-4062-befa-fc453594a501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CApp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnErrors.c">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TextStrings.c">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices.c">
+      <Filter>Source Files\BLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Prices.c">
+      <Filter>Source Files\BLL</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.c">
+      <Filter>Source Files\DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="PriceData.c">
+      <Filter>Source Files\DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="StdinHelper.c">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReturnErrors.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TextStrings.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices.h">
+      <Filter>Header Files\BLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Prices.h">
+      <Filter>Header Files\BLL</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Header Files\DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceData.h">
+      <Filter>Header Files\DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="StdinHelper.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
